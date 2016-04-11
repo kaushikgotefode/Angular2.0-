@@ -1,0 +1,11 @@
+<form [ngFormModel]="userForm" (submit)="saveUser()">
+  <label for="name">Name</label>
+  <input ngControl="name" id="name" />
+  <control-messages control="name"></control-messages>
+    
+  <label for="email">Email</label>
+  <input ngControl="email" id="email" />
+  <control-messages control="email"></control-messages>
+    
+  <button type="submit" [disabled]="!userForm.valid">Submit</button>
+</form>
