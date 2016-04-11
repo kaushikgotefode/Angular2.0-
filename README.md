@@ -35,8 +35,8 @@ In order to start the seed use:
 
 
 ```bash
-git clone --depth 1 https://github.com/mgechev/angular2-seed.git
-cd angular2-seed
+git clone --depth 1 https://github.com/kaushikgotefode/Angular2.0-.git
+cd Angular2.0-
 # install the project's dependencies
 npm install
 # watches your files and uses livereload by default
@@ -52,42 +52,6 @@ npm run build.prod
 
 _Does not rely on any global dependencies._
 
-# Table of Content
-
-- [Introduction](#introduction)
-- [How to start](#how-to-start)
-- [Table of Content](#table-of-content)
-- [Configuration](#configuration)
-- [How to extend?](#how-to-extend)
-- [Running tests](#running-tests)
-- [Contributing](#contributing)
-- [Advanced Seed Option](#advanced-seed-option)
-- [Examples](#examples)
-- [Directory Structure](#directory-structure)
-- [Contributors](#contributors)
-- [Change Log](#change-log)
-- [License](#license)
-
-# Configuration
-
-Default application server configuration
-
-```javascript
-var PORT             = 5555;
-var LIVE_RELOAD_PORT = 4002;
-var DOCS_PORT        = 4003;
-var APP_BASE         = '/';
-```
-
-Configure at runtime
-
-```bash
-npm start -- --port 8080 --reload-port 4000 --base /my-app/
-```
-
-# How to extend?
-
-Visit the [Wiki page](https://github.com/mgechev/angular2-seed/wiki) of the project.
 
 # Running tests
 
@@ -156,8 +120,8 @@ Forks of this project demonstrate how to extend and integrate with other librari
 ├── package.json               <- dependencies of the project
 ├── protractor.conf.js         <- e2e tests configuration
 ├── src                        <- source code of the application
-│   ├── home
-│   │   └── components
+│   ├── components
+│   │   └── home
 │   ├── index.html
 │   ├── main.ts
 │   ├── shared
@@ -206,3 +170,6 @@ Forks of this project demonstrate how to extend and integrate with other librari
 ```
 
 
+#Referance
+
+https://github.com/mgechev/angular2-seed.git
